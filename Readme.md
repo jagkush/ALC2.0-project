@@ -1,0 +1,1 @@
+This project is a portfolio website designed as a challenge from the Andela Learning Community (ALC) 2.0 grand finale meetup project. it was coded with HTML, CSS, JAVASCRIPT with libraries like Bootstrap and Jquery. However, this project will accept reasonable commit.

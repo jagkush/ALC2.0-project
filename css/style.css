@@ -1,0 +1,61 @@
+#body{text-align: center; align-content: center}
+.icon{display: inline-block; background-color: #4e4e4e;text-decoration: none; width: 100%;height: 100px;padding-top: 20px;margin-bottom: 0}
+.logo{align-content: center; margin-left: 150px}
+header ul{list-style-type: none; margin: 0; padding: 0; overflow: hidden;margin-right: 120px;}
+header li{float: left; margin-right: 30px}
+header li a{ display: block;color: #fff;text-align: center;padding: 16px; text-decoration: none;}
+header li a:hover{color: aqua}
+.nav-list{list-style: none; align-content: flex-end}
+#bg-word{font-family: Arial, Helvetica, sans-serif; font-size: 36px; color: #fff;position:absolute;top: -5px;left: +400px}
+.nav-logo{border-radius: 50%;}
+#design{display: block; margin-bottom: 40px;}
+#design div{display: inline-block;}
+#develop{margin-bottom: 20px; display: block}
+#develop div{display: inline-block}
+.pic {padding:20px; width:200px; height:200px; border-radius:50%;}
+.pic:hover {opacity:0.7;}
+
+article p {text-align: center; font-size: 1.5em;margin: 0 0 10px;font-family: alice_reg;font-weight: 300}
+
+section{margin-top: 20px;}
+section h2 {font-size: 48px;color: rgb(5, 78, 11);}
+section h3 {color: rgb(55, 238, 177)}
+#i-can-help {width: 100%; text-align: center;align-content: center}
+
+footer {display: block !important;font-size: 24px;width:100%;background-color: rgb(43, 42, 42);color:#fff;padding:20px;margin-top:20px }
+footer li {display: inline-block;border-bottom: none;}
+.fa {padding:5px; font-size: 15px; width: 30px; text-align: center; text-decoration:none; border-radius: 50%;}
+.fa:hover {opacity: 0.7;}
+.fa-facebook {background: #3b5998; color: white;}
+.fa-linkedin{background: #55acee; color: white;}
+.fa-twitter {background: #55acee; color: white;}
+.fa-youtube-play {background: #cc1313; color: white;}
+.fa-github {background: #1a1919; color: rgb(25, 100, 22);}
+.fa-envelope {background: #cc1313;color: #fff}
+.fa-phone{background: #fff;color: #cc1313}
+footer a {color: #fff !important;}
+
+@media screen and (max-width:500px) {
+    .logo{ margin-left: 1px;}
+    .icon{height: 150px;margin-bottom: 0;}
+    header ul{list-style-type: none; margin: 0; padding: 0; overflow: hidden;}
+    header li{float:none;}
+    header li a{ display: block;color: #fff;text-align: center;padding: 1px; text-decoration: none;}
+   .backg{display: none;} .back-word{ display: none;}
+   .hide{display: none}
+.word{float: right}
+footer{font-size: 14px}
+#popbody{width: 200px}
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .logo{ margin-left: 1px}
+    header ul{list-style-type: none; margin: 0; padding: 0; overflow: hidden;}
+    header li{float: left;}
+    header li a{ display: block;color: #fff;text-align: center;padding: 1px; text-decoration: none;}
+.word{float: right}
+footer{font-size: 16px;}
+}
+
